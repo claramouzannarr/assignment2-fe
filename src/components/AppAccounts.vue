@@ -194,7 +194,7 @@ export default {
         .get(path)
         .then((response) => {
           this.accounts = response.data.accounts;
-          console.log(responseq)
+          console.log(responseq);
         })
         .catch((error) => {
           console.error(error);
