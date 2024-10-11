@@ -11,7 +11,7 @@ on:
 
 env:
   FRONTEND_WEBAPP_DEV: prodrigano-fe-dev
-  FRONTEND_WEBAPP_UAT: prodrigano-fe-ua
+  FRONTEND_WEBAPP_UAT: prodrigano-fe-uat
 jobs:
   build:
     runs-on: ubuntu-latest
