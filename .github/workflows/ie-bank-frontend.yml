@@ -11,6 +11,7 @@ on:
 
 env:
   FRONTEND_WEBAPP_DEV: pkaracs-fe-dev
+  FRONTEND_WEBAPP_UAT: pkaracs-fe-uat
 
 jobs:
   build:
