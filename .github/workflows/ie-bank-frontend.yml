@@ -15,7 +15,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    environment: development
     steps:
       - uses: actions/checkout@v4
 
@@ -59,19 +59,3 @@ jobs:
         with:
           app-name: ${{ env.FRONTEND_WEBAPP_DEV }}
           package: .
-
-      - name: Configure App Settings (DEV)
-        uses: azure/appservice-settings@v1
-        with:
-          app-name: ${{ env.FRONTEND_WEBAPP_DEV }}
-          app-settings-json: |
-            [
-              {
-                "name": "NODE_ENV",
-                "value": "${{ vars.NODE_ENV }}"
-              },
-              {
-                "name": "VUE_APP_ROOT_URL",
-                "value": "${{ vars.VUE_APP_ROOT_URL }}"
-              }
-            ]
