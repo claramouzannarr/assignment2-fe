@@ -295,7 +295,7 @@ export default {
 
     // Handle submit event for edit account
     onSubmitUpdate(e) {
-      e.preventDefault(); //prevent default form submit form the browser
+      e.preventDefault(); 
       this.$refs.editAccountModal.hide(); //hide the modal when submitted
       const payload = {
         name: this.editAccountForm.name,
