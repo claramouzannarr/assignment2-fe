@@ -71,7 +71,7 @@ jobs:
                 "value": "${{ vars.NODE_ENV }}"
               },
               {
-                "name": "VUE_APP_ROOT_API",
+                "name": "VUE_APP_ROOT_URL",
                 "value": "${{ vars.VUE_APP_ROOT_URL }}"
               }
             ]
