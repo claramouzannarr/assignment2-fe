@@ -2,12 +2,15 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
 name: ie-bank-frontend
-
 on:
   push:
     branches:
+      - '*'
+  pull_request:
+    branches:
       - main
   workflow_dispatch:
+
 
 env:
   FRONTEND_WEBAPP_DEV: pkaracs-fe-dev
