@@ -293,7 +293,7 @@ export default {
       this.initForm();
     },
 
-    // Handle submit event for edit account
+    // Handle submit event for edit accounts
     onSubmitUpdate(e) {
       e.preventDefault(); 
       this.$refs.editAccountModal.hide(); //hide the modal when submitted
