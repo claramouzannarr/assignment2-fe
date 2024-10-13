@@ -19,7 +19,7 @@ export default {
 /* Import Bootstrap CSS */
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
 
-/*styles*/
+/*stylesheet*/
 .vertical-center {
   display: flex;
   justify-content: center;
