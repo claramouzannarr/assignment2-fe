@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style>
-/* Import Bootstrap CSS */
+/* Importt Bootstrap CSS */
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
 
 /*stylesheet*/
