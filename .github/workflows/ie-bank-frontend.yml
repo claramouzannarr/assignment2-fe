@@ -32,7 +32,7 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
-          npm run build -- --mode development --dest dist-dev ## this command will build the vue.js app using .env.development variables into the dest-div/ folder
+          npm run build -- --mode development 
         env:
           NODE_ENV: ${{ vars.NODE_ENV }}
           VUE_APP_ROOT_URL: ${{ vars.VUE_APP_ROOT_URL }}
@@ -59,7 +59,7 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
-          npm run build -- --mode development --dest dist-dev ## this command will build the vue.js app using .env.development variables into the dest-div/ folder
+          npm run build -- --mode development
         env:
           NODE_ENV: ${{ vars.NODE_ENV }}
           VUE_APP_ROOT_URL: ${{ vars.VUE_APP_ROOT_URL }}
